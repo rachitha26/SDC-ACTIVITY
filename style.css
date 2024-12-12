@@ -1,0 +1,81 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:black;
+        }
+        header {
+            background-image: url('Vertex-day-2.png');
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            padding:0;
+        }
+        .top-header{
+            width:100%;
+            background-image: url('Vertex-day-2.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .top-header>h1{
+            color: white;
+            background-color: rgba(0,0,0,0.3);
+            padding: 2em 1em;
+            font-family: sans-serif;
+        }
+        section {
+            padding: 20px;
+        }
+        .event-details {
+            background-image: url("https://vertechx.mvjce.edu.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.c2c8bd28.png&w=3840&q=75");
+            background-color: blanchedalmond;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .event-details h2 {
+            margin-top: 0;
+        }
+        .schedule, .speakers {
+            display: flex;
+            gap: 20px;
+            margin: 50px;
+        }
+        .list div, .speakers div {
+            background-image: url("https://vertechx.mvjce.edu.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.c2c8bd28.png&w=3840&q=75");
+            background-color: blanchedalmond;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 300px;
+        }
+        .registration-form {
+            background-color:blanchedalmond ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .registration-form input, .registration-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        footer {
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding:0;
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
